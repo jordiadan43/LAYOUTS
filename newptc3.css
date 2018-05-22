@@ -1,0 +1,18 @@
+* { box-sizing: border-box;}
+
+#header { border: thin solid black; }
+#header p {text-align: center; font-size: 25px;}
+  #content { border: thin solid black;background-color: pink; width: 75%; float:left;}
+/*#right-menu { border: thin solid black; width: 25%; float: left;}*/
+#left-menu { border: thin solid black; width: 25%; float: left;}
+
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto auto;
+}
+#footer {border: thin solid black; width: 100%; float: inherit;}
+
+.clearfix { clear: both;}
